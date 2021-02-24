@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  /* border: 2px solid black; */
+  width: 800px;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: inherit;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: #5e433c;
+}
+h1 {
+  font-size: medium;
+}
+.nav-bar {
+  width: 25%;
+  display: flex;
+  /* border: 2px solid red; */
+  font-size: medium;
+  align-items: center;
+  justify-content: space-around;
+}
+.a {
+  color: #bd755b;
+  text-decoration: none;
+}
+.login {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 60%;
+  height: 50vh;
+}
+
+.login-form {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+}
+
+button {
+  border-radius: 10%;
+  width: 20%;
+}
