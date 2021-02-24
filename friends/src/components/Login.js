@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { useHistory } from "react-router-dom";
 import axios from "axios";
 import { useHistory } from "react-router-dom";
 
@@ -19,13 +18,10 @@ function Login() {
   };
 
   const login = (e) => {
-    // console.log("Hello I am here");
     e.preventDefault();
     axios
       .post("http://localhost:5000/api/login", credentials)
       .then((res) => {
-        // console.log("This is RES", res);
-        // console.log("I am here");
         localStorage.setItem("token", JSON.stringify(res.data.payload));
         history.push("/friends");
       })
