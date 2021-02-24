@@ -27,3 +27,25 @@ h1 {
   color: #bd755b;
   text-decoration: none;
 }
+.login {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 60%;
+  height: 50vh;
+}
+
+.login-form {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+}
+
+button {
+  border-radius: 10%;
+  width: 20%;
+}
